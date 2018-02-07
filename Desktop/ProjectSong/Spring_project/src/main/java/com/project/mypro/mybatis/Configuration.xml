@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<!-- 타입의 별칭 정의하기 -->
+	<typeAliases>
+	
+	<typeAlias type="com.project.mypro.users.dto.UsersDTO" alias="usersDto"/>
+<!-- 		
+		<typeAlias type="com.project.myresume.file.dto.FileDto" alias="fileDto"/>
+		<typeAlias type="com.project.myresume.profile.dto.EduDto" 
+				alias="EduDto"/>
+		<typeAlias type="com.project.myresume.profile.dto.AcDto" 
+				alias="AcDto"/>	
+		<typeAlias type="com.project.myresume.profile.dto.ExpsDto" 
+				alias="ExpsDto"/>	
+		<typeAlias type="com.project.myresume.profile.dto.IntsDto" 
+				alias="IntsDto"/>		
+		<typeAlias type="com.project.myresume.profile.dto.SkillsDto" 
+				alias="SkillsDto"/>			 -->		
+
+	</typeAliases>
+
+	
+	<!-- sql문을 정의하고있는 xml문서 -->
+	<mappers>
+ 		<mapper resource="com/project/mypro/mybatis/UsersMapper.xml"/>
+<!--	<mapper resource="com/project/myresume/mybatis/FileMapper.xml"/>
+		<mapper resource="com/project/myresume/mybatis/EduMapper.xml"/>	
+		<mapper resource="com/project/myresume/mybatis/AcMapper.xml"/>
+		<mapper resource="com/project/myresume/mybatis/ExpsMapper.xml"/>
+		<mapper resource="com/project/myresume/mybatis/IntsMapper.xml"/>
+		<mapper resource="com/project/myresume/mybatis/SkillsMapper.xml"/> -->
+	</mappers>
+</configuration>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
